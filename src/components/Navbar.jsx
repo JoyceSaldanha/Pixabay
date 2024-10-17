@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import PixabayContaxt from '../PixabayContext';
+import PixabayContaxt from '../context/PixabayContext';
 
 const Navbar = () => {
     const {fetchImageByCategory, setQuery} = useContext(PixabayContaxt);
